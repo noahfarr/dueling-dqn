@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dueling-dqn"
+version = "0.1.0"
+description = "An implementation of the DuelingDQN architecture"
+authors = ["Noah Farr <noah.farr@tno.nl>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.26.4"
+torch = "2.3.0"
+gymnasium = "^0.29.1"
+tyro = "^0.8.8"
+tensorboard = "^2.17.1"
+stable-baselines3 = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
